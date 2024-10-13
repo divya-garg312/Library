@@ -1,0 +1,72 @@
+#container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+ #result{
+    width:100%;
+    border-collapse: separate ;
+    border-spacing: 10px;
+    font-size: 20px;
+ }
+
+*{
+    background-color: blanchedalmond;
+}
+
+#bookStatus,#add,input{
+    border:2px solid black;
+    border-radius: 3px;
+}
+
+#show{
+    padding:13px;
+    border:3px solid black;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 6px;
+    transform: transition 0.6s ease;
+}
+
+#show:hover{
+   transform:scale(1.05);
+}
+
+h1{
+  font-size:4vw;
+  text-align: center;
+}
+
+#container{
+    display:none;
+}
+
+#para{
+   font-size:18px;
+}
+
+#show{
+  margin-left:43%;
+  margin-bottom:20px;
+}
+
+#dlt{
+   height:2.3vw;
+   padding:0px 7px; 
+   font-weight: 700;
+   border-radius: 4px;
+}
+
+button{
+    padding:10px;
+}
+
+table tr{
+    text-align: center;
+}
+
+table th,table td{
+    width:calc(100vw/5);
+}
+
